@@ -37,3 +37,17 @@
                         -La información suministrada es confidencial y no debe ser replicada o
                             compartida para usos diferentes a los de este ejercicio.
                    
+Realizado bajo el Framework Laravel 5.4, acontinuacion se detallan los pasos para la instacion y usa del desarrollo:
+
+- Clonar el repositorio en la carpeta de su preferencia
+- Ejecutar "Composer Update"
+- Crear Base de Datos
+- Configurar .env de acuerdo a la informacion de la base de datos MySql
+- Ejecutar "php artisan migrate" en la raiz del proyecto
+- Ejecutar "php artisan serve" en la raiz del proyecto
+- Acceder a "http://localhost:8000"
+- Registre un Usuario para ingresar al sistema
+- Ingrese al sistema con el usuario registrado
+- Registre un Cliente: Clentes -> Agregar Cliente
+- Registre el Pago: Pagos -> Agregar Pago.
+- Ingrese los datos solicitados por el formulario.
