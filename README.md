@@ -20,21 +20,20 @@
                     </p>
 
                     
-                    <p>
-                        <h4>Tener en cuenta</h4>
-                        <li>Uso de Programación Orientada a Objetos</li>
-                        <li>Conexión por SOAP (con SoapClient)</li>
-                        <li>Uso de cache (Cache Interface)</li>
-                        <li>Separación de capas (mínimo MVC)</li>
-                        <li>Uso de autoload (PSR 4)</li>
-                        <li>Documentación/README</li>
-                        <li>Formato de código (PSR 1 y 2)</li>
-                        <li>Manejo de variables de entorno para los datos de conexión (con .env o
-                            config.php o similares)</li>
-                        <li>Uso de migraciones</li>
-                        <li>Aplicar control de versiones (commits, descripciones, organización,
-                            continuidad)</li>
-                        <li>Aplicar pruebas unitarias</li>
-                        <li>La información suministrada es confidencial y no debe ser replicada o
-                            compartida para usos diferentes a los de este ejercicio.</li>
-                    </p>
+                    Tener en cuenta:
+                        -Uso de Programación Orientada a Objetos
+                        -Conexión por SOAP (con SoapClient)
+                        -Uso de cache (Cache Interface)
+                        -Separación de capas (mínimo MVC)
+                        -Uso de autoload (PSR 4)
+                        -Documentación/README
+                        -Formato de código (PSR 1 y 2)
+                        -Manejo de variables de entorno para los datos de conexión (con .env o
+                            config.php o similares)
+                        -Uso de migraciones
+                        -Aplicar control de versiones (commits, descripciones, organización,
+                            continuidad)
+                        -Aplicar pruebas unitarias
+                        -La información suministrada es confidencial y no debe ser replicada o
+                            compartida para usos diferentes a los de este ejercicio.
+                   
