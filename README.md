@@ -1,51 +1,54 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="https://media.licdn.com/dms/image/C5603AQFKjl8tLpetdA/profile-displayphoto-shrink_200_200/0?e=1547683200&v=beta&t=ZJ3WzLM6NKE_R2x5xXQn4FvEfA_e_MCWLTuRDtFK5NA"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Sobre el Proyecto
 
-## About Laravel
+<p align="justify">El propósito de esta evaluación es verificar las habilidades para entender un problema a partir de una documentación estándar.</p>
+<p align="justify">Se requiere desarrollar una conexión en PHP utilizando el WebServices de PSE descrito en el archivo anexo. Esta integración debe permitir realizar un pago básico desde internet.</p>
+<p align="justify">Mediante un formulario debe suministrar los datos necesarios para realizar el pago (revisar parámetros de entrada del servicio).</p>
+<p align="justify">Debe mantener un registro de la respuesta generada por el WebService, determinando su estado actual (Aprobado, pendiente, fallido o rechazado). Listar cada intento de pago con el estado en que se encuentre.</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## Tener en cuenta
+- Uso de Programación Orientada a Objetos.
+- Conexión por SOAP (con SoapClient).
+- Uso de cache (Cache Interface).
+- Separación de capas (mínimo MVC).
+- Uso de autoload (PSR 4).
+- Documentación/README.
+- Formato de código (PSR 1 y 2).
+- Manejo de variables de entorno para los datos de conexión (con .env o config.php o similares).
+- Uso de migraciones.
+- Aplicar control de versiones (commits, descripciones, organización, continuidad).
+- Aplicar pruebas unitarias.
+- La información suministrada es confidencial y no debe ser replicada o compartida para usos diferentes a los de este ejercicio.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+## Instalación y Configuración
 
-## Learning Laravel
+El desarrollo esta basado en el Framework Laravel. Para mayor información puede consultar la documentación oficial:  [Laravel documentation](https://laravel.com/docs). 
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+- Descargar o Clonar el repositorio en la ubicacion de su preferencia
+- Se debe actualizar las dependencias con Composer ejecutando el siguiente comando en la raiz del proyecto: "composer update".
+- Configurar el archivo .env para la correcta conexion a la base de datos mysql.
+- Ejecutar la migracion de las tablas y sus relaciones con "php artisan migrate", previamente se debe haber creado la base de datos y configurar los datos de conexion en el archivo .env.
+- Ejecutar el comando "php artisan serve" para levantar el servidor web de Laravel.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## Acceso y Uso
 
-## Laravel Sponsors
+Si los pasos anteriores ha sido realizados correctamente y sin errores, podemos acceder al proyecto el la siguiente direccion: "http://localhost:8000".
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+Seguidamente:
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+- Registrar un Usuario para acceder al proyecto
+- Iniciar sesión con le Usuario previamente registrado.
+- Crear Clientes, este paso es necesario para poder realizar los pagos de prueba.
+- Crear Pagos, ingresamos la información solicitada por el formulario y registramos el pago.
 
-## Contributing
+## Caracteristicas y Funciones
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+- Modulo simple para administrar Información de los clientes
+- Modulo simple para el Proceso y Verificación de los Pagos Registrados.
+- Detalles de Pagos.
 
-## Security Vulnerabilities
+## Agradecimiento
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Muchas gracias a la empresa PlacetoPay por permitirme participar en su proceso de selección, espero haber cumplido con todos los requerimiento. 
